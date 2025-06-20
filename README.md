@@ -1,8 +1,12 @@
 // --- app/xxx/page.tsx ---
+
 // Ce fichier est la page principale qui importe les données et le composant AllProduct pour afficher la liste des produits.
 
-import AllProduct from "@/components/card/allProduct"; // Import du composant AllProduct
-import data from "./data.json"; // Import des données JSON des produits
+
+import AllProduct from "@/components/card/allProduct";
+// Import du composant AllProduct
+import data from "./data.json"; 
+// Import des données JSON des produits
 
 export default function Page() {
   return (
